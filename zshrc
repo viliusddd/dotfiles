@@ -138,7 +138,7 @@ amixer -q set Headphone 100% unmute
 # flameshot
 
 # include wakatime
-source ~/github/bash-wakatime/bash-wakatime.sh
+source ~/git/bash-wakatime/bash-wakatime.sh
 
 # setup external monitor
 xrandr --auto
@@ -210,3 +210,9 @@ bindkey '^?' backward-delete-char
 bindkey '^h' backward-delete-char
 bindkey '^w' backward-kill-word
 
+# git add, commit and push in a single sweep
+function lazygit() {
+    git add .
+    git commit -a -m "$1"
+    git push
+}
