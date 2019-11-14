@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/media/Win10/ProgramData/Autodesk/CLM'
+let g:netrw_dirhist_2='/media/Win10/ProgramData/Autodesk/CLM/LGS'
+let g:netrw_dirhist_3='/media/Win10/ProgramData/Autodesk/CLM/LGS/657K1_2019.0.0.F'
+let g:netrw_dirhist_4='/home/vil/github/15f6a75344c1a567c49ac47bd1de191d'
